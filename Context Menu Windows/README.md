@@ -11,7 +11,8 @@ Type ````regedit```` in RUN or Start Menu Search box and press Enter. It’ll op
 1. [Run Registry Editor](#foremost-thing-to-do)
 2. Now go to following key:  
     * Context menu for right click on folders in left panel of Windows Explorer or on background of a directory in right panel:
-        * ````
+        * 
+        ````
             HKEY_CLASSES_ROOT\Directory\Background\shell
         ````
         if you are Administrator  
@@ -20,7 +21,8 @@ Type ````regedit```` in RUN or Start Menu Search box and press Enter. It’ll op
         ````
         if you are Normal User  
     * Context menu for right click on folders in right panel of Windows Explorer:
-        * ````
+        *
+        ````
             HKEY_CLASSES_ROOT\Directory\shell
         ````
         if you are an Administrator  
