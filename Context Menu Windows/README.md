@@ -15,15 +15,13 @@ __Steps__
 
 2. Now go to following key:  
     For Desktop Context Menu  
-    
-        ````
+
         HKEY_CLASSES_ROOT\DesktopBackground\Shell
-        ````  
+  
     For Windows Context Menu  
 
-        ````        
         HKEY_CLASSES_ROOT\CLSID\{20D04FE0-3AEA-1069-A2D8-08002B30309D}\shell
-        ````  
+ 
 
 3. Now we’ll need to create a new key under __Shell__ key. Right-click on __Shell__ key and select __New -> Key__. Give the new key any desired name e.g. __Menu_1__  
 
