@@ -7,31 +7,50 @@ _________________
 ________________________________________________________
 ## Foremost thing to do
 Type ````regedit```` in RUN or Start Menu Search box and press Enter. It’ll open Registry Editor.  
+
 ## Normal Context Menu
 1. [Run Registry Editor](#foremost-thing-to-do)
-2. Now go to following key:  
+
+2. Now go to following key depending upon needs:  
     * Context menu for right click on folders in left panel of Windows Explorer or on background of a directory in right panel: 
         * if you are Administrator  
-                HKEY_CLASSES_ROOT\Directory\Background\shell
+            ````
+            HKEY_CLASSES_ROOT\Directory\Background\shell
+            ````
 
         * if you are Normal User  
+            ````
             HKEY_CURRENT_USER\Software\Classes\directory\Background\shell
+            ````
     * Context menu for right click on folders in right panel of Windows Explorer:
         * if you are an Administrator  
-
-        ````
+            ````
             HKEY_CLASSES_ROOT\Directory\shell
-        ````
-        * if you are Normal User  
+            ````
 
-        ````
+        * if you are Normal User  
+            ````
             HKEY_CURRENT_USER\Software\Classes\directory\shell
-        ````
+            ````
+
+3. If your goal is cascading context menu, [follow steps in here](#cacading-context-menu)  
+Change step-2 in the url to the step-2 of this portion otherwise move to next step
+
+4. Now we’ll need to create a new key under __Shell__ key. Right-click on __Shell__ key and select __New -> Key__. Give the new key any desired name e.g. __Menu_1__  
+
+5. If you want to add icon to the menu, select this newly created key __Menu_1__ and in right-side pane, create new String value __New -> String Value__ with name __Icon__ and set its value to program’s EXE file path or any other desired icon. For example, to show Notepad icon for Notepad shortcut, you can set value of Icon to notepad.exe
+6. Now final step! Create a new key under the recently created key __Menu_1__, and give it a name __command__.
+
+    Click on it and in right-side pane, set value of __(Default)__ to __path/to/executable__
+    
+    _if the program require or support argument use `%1` or `%V` Example: __path/to/executable "%1"___
+
 ## Cacading Context Menu
 [Reference](https://www.askvg.com/add-cascading-menus-for-your-favorite-programs-in-windows-7-desktop-context-menu/)  
 
 __Steps__
 1. [Run Registry Editor](#foremost-thing-to-do)
+
 2. Now go to following key:  
 
     * For Desktop Context Menu  
@@ -81,6 +100,8 @@ _(Once you have added the program shortcuts to cascading menus using above proce
 
 8. If you also want to show an icon for it, create a new String value with the name icon and set its value to program’s EXE file path or any other desired icon. For example, to show Notepad icon for Notepad shortcut, you can set value of Icon to notepad.exe
 
-9. Now final step! Create a new key under the recently created keys, e.g. notepad or calc and give it name __command__.
+9. Now final step! Create a new key under the recently created keys, e.g. notepad or calc and give it a name __command__.
 
-    Click on it and in right-side pane, set value of __(Default)__ to the path of your desired program’s EXE file. For example, if you want to open Notepad when you click on “Notepad” entry in cascading menu, set value of “Command” to notepad.exe
+    Click on it and in right-side pane, set value of __(Default)__ to the path of your desired program’s EXE file. For example, if you want to open Notepad when you click on “Notepad” entry in cascading menu, set value of __Command__ to notepad.exe
+
+    _if the program require or support argument use `%1` or `%V` Example: __path/to/executable "%1"___
