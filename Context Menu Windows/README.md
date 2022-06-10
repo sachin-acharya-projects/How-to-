@@ -15,11 +15,11 @@ __Steps__
 
 2. Now go to following key:  
 
-    For Desktop Context Menu  
+    * For Desktop Context Menu  
 
         HKEY_CLASSES_ROOT\DesktopBackground\Shell
   
-    For Windows Context Menu  
+    * For Windows Context Menu  
 
         HKEY_CLASSES_ROOT\CLSID\{20D04FE0-3AEA-1069-A2D8-08002B30309D}\shell
  
