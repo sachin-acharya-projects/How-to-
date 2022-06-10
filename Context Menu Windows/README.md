@@ -5,14 +5,34 @@ _________________
 > [Cascading Context Menu](#cascading-context-menu)  
 > [File Context Menu](#file-context-menu)  
 ________________________________________________________
+## Foremost thing to do
+Type ````regedit```` in RUN or Start Menu Search box and press Enter. It’ll open Registry Editor.  
 ## Normal Context Menu
-
+1. [Run Registry Editor](#foremost-thing-to-do)
+2. Now go to following key:  
+    * Context menu for right click on folders in left panel of Windows Explorer or on background of a directory in right panel:
+        * ````
+        HKEY_CLASSES_ROOT\Directory\Background\shell
+        ````
+        if you are Administrator
+        * ````
+        HKEY_CURRENT_USER\Software\Classes\directory\Background\shell
+        ````
+        if you are Normal User
+    * Context menu for right click on folders in right panel of Windows Explorer:
+        * ````
+        HKEY_CLASSES_ROOT\Directory\shell
+        ````
+        if you are an Administrator
+        * ````
+        HKEY_CURRENT_USER\Software\Classes\directory\shell
+        ````
+        if you are Normal User
 ## Cacading Context Menu
 [Reference](https://www.askvg.com/add-cascading-menus-for-your-favorite-programs-in-windows-7-desktop-context-menu/)  
 
 __Steps__
-1. Type regedit in RUN or Start Menu Search box and press Enter. It’ll open Registry Editor.  
-
+1. [Run Registry Editor](#foremost-thing-to-do)
 2. Now go to following key:  
 
     * For Desktop Context Menu  
