@@ -14,12 +14,12 @@ __Steps__
 1. Type regedit in RUN or Start Menu Search box and press Enter. It’ll open Registry Editor.  
 
 2. Now go to following key:  
-    For Desktop Context Menu
-        ````
+    For Desktop Context Menu  
+        ````cmd
         HKEY_CLASSES_ROOT\DesktopBackground\Shell
         ````
-    For Windows Context Menu
-        ````
+    For Windows Context Menu  
+        ````cmd
         HKEY_CLASSES_ROOT\CLSID\{20D04FE0-3AEA-1069-A2D8-08002B30309D}\shell
         ````  
 
@@ -29,7 +29,8 @@ __Steps__
     * `MUIVerb`
     * `SubCommands`
     * `Icon`
-    * `Position`
+    * `Position`  
+
     __Icon__ and __Position__ are optional but __MUIVerb__ and __SubCommands__ are compulsory.
 
     __MUIVerb__ contains the name of cascading menu which will be displayed in the context menu. You can set its value to any desired name like Apps, Browsers, etc. Feel free to set any name.
@@ -38,7 +39,7 @@ __Steps__
     
     __Example__  
     Suppose you want to add Notepad and Calculator shortcuts under __SubCommands__. In this case, you’ll need to set following as __SubCommands__ value:
-    ````
+    ````cmd
     notepad;calc ;this name can be anything. It is only needed to reference in latter phase
     ````
     PS: If you want to put a separator between menus, just use Pipe symbol (|) between commands. For example, notepad;|;calc
