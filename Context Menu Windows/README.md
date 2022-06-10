@@ -17,7 +17,7 @@ __Steps__
     For Desktop Context Menu  
         ````cmd
         HKEY_CLASSES_ROOT\DesktopBackground\Shell
-        ````
+        ````  
     For Windows Context Menu  
         ````cmd
         HKEY_CLASSES_ROOT\CLSID\{20D04FE0-3AEA-1069-A2D8-08002B30309D}\shell
@@ -51,7 +51,7 @@ __Steps__
 _(Once you have added the program shortcuts to cascading menus using above processes, you’ll need to register the commands mentioned in __SubCommands__ String value using following method)_
 
 5. Go to following key:  
-    ````
+    ````cmd
     HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\Shell
     ````  
 6. Under this key, we’ll need to create new keys for each command mentioned in __SubCommands__ String value. (example: notepad and calc)
