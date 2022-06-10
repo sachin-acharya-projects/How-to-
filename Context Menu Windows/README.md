@@ -14,20 +14,20 @@ Type ````regedit```` in RUN or Start Menu Search box and press Enter. It’ll op
         * ````
             HKEY_CLASSES_ROOT\Directory\Background\shell
         ````
-        if you are Administrator
+        if you are Administrator  
         * ````
             HKEY_CURRENT_USER\Software\Classes\directory\Background\shell
         ````
-        if you are Normal User
+        if you are Normal User  
     * Context menu for right click on folders in right panel of Windows Explorer:
         * ````
             HKEY_CLASSES_ROOT\Directory\shell
         ````
-        if you are an Administrator
+        if you are an Administrator  
         * ````
             HKEY_CURRENT_USER\Software\Classes\directory\shell
         ````
-        if you are Normal User
+        if you are Normal User  
 ## Cacading Context Menu
 [Reference](https://www.askvg.com/add-cascading-menus-for-your-favorite-programs-in-windows-7-desktop-context-menu/)  
 
