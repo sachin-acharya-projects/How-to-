@@ -14,6 +14,7 @@ __Steps__
 1. Type regedit in RUN or Start Menu Search box and press Enter. It’ll open Registry Editor.  
 
 2. Now go to following key:  
+
     For Desktop Context Menu  
 
         HKEY_CLASSES_ROOT\DesktopBackground\Shell
