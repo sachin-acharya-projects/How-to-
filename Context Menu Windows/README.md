@@ -127,14 +127,16 @@ _(Once you have added the program shortcuts to cascading menus using above proce
 * If we need to use separator between sub-menus, use PIPE(|) `shift + \` between menus to be separeted in the value of __SubCommands__
 
 * If we need to use separator between main menus, add following __String Value with NULL value__ inside __shell > menu__  
-Example
-````
-; shell > menu > New > String Value
-SeparatorAfter
-SeparatorBefore
-; With no value
-````
+    Example
+    ````
+    ; shell > menu > New > String Value
+    SeparatorAfter
+    SeparatorBefore
+    ; With no value
+    ````
 
-* If we want to display only on shift-click, add an empty string value named Extended for key __shell > menu__
+* If we want to display only on shift-click, add an empty string value named `Extended` for key __shell > menu__
 
 * If we want to change menu entry location, add a string value named Position with one of: Top, Bottom, Middle in __shell > menu__
+
+* If we want to display UAC Icon, add an empty key value `HasLUAShield`
