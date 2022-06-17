@@ -8,7 +8,8 @@ ___________________________________________
     ````python
     https://htmlpreview.github.io/?https://github.com/sachin-acharya-projects/AnalogClock/main/index.html
 
-    # https://github.com/sachin-acharya-projects/AnalogClock/main/index.html is my path to index.html in main branch of AnalogClock Repository
+    # https://github.com/sachin-acharya-projects/AnalogClock/main/index.html is my path to index.html in main
+    # branch of AnalogClock Repository
 
     # Only possible with public repositories
     ````
