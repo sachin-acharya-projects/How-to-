@@ -35,3 +35,10 @@ for example, we I want what I want with green color, I would replace value with
 color 02 && prompt ($D $T) $P $B Sachin Acharya: 
 ````
 > For more information about color and prompt run color /? and prompt /? command on cmd
+
+#### Bonus Tip
+To create alias in windows terminal
+
+````
+doskey alias=command
+````
