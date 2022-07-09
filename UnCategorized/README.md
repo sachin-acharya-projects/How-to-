@@ -42,3 +42,9 @@ ____________________________________________
 
     [https://theitbros.com/ssh-into-windows/](https://theitbros.com/ssh-into-windows/)
     [https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse)
+
+____________________________________________________
+
+* Program Task Scheduler
+
+    [Programatic way of using Task Scheduler](https://medium.com/@ajay.bile007/programmatic-way-of-creating-task-in-windows-task-scheduler-8673c5d5b897)
