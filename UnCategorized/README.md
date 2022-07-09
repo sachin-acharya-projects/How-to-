@@ -1,5 +1,14 @@
 # Uncategorized Informations
+
+**Reference Links**
+
+1. [Creating Self-Signed Certificates for applications](#N1)
+2. [Creating Alias in Windows](#N2)
+3. [Reference to SSH](#N3)
+4. [Programming Task Scheduler](#N4)
 ______________________________________________
+<div id='N1'></div>  
+
 * Create a Self-Signed Certificates for applications (*.exe)
 
     [Visit This Link](https://mmus.me/blog/certificates/)
@@ -27,6 +36,7 @@ ______________________________________________
     **In my case I installed Windows App Certification Kit x64-x86_en-us.msi, which installs the executable to C:\Program Files (x86)\Windows Kits\10\App Certification Kit\signtool.exe**
 
 ___________________________________________________________________
+<div id='N2'></div>  
 
 * Creating Alias in Windows
     ````
@@ -37,6 +47,7 @@ ___________________________________________________________________
     doskey alias_name=command; "sequence_of_task" # This is for Windows
     ````
 ____________________________________________
+<div id='N3'></div>
 
 * Reference to SSH
 
@@ -44,6 +55,7 @@ ____________________________________________
     [https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse)
 
 ____________________________________________________
+<div id='N4'></div>
 
 * Program Task Scheduler
 
