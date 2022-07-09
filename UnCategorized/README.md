@@ -1,3 +1,4 @@
+# Uncategorized Informations
 ______________________________________________
 * Create a Self-Signed Certificates for applications (*.exe)
 
@@ -25,6 +26,8 @@ ______________________________________________
     
     **In my case I installed Windows App Certification Kit x64-x86_en-us.msi, which installs the executable to C:\Program Files (x86)\Windows Kits\10\App Certification Kit\signtool.exe**
 
+___________________________________________________________________
+
 * Creating Alias in Windows
     ````
     alias alias_name=command; "sequence_of_task" # This is for Linux
@@ -33,3 +36,9 @@ ______________________________________________
     ````
     doskey alias_name=command; "sequence_of_task" # This is for Windows
     ````
+____________________________________________
+
+* Reference to SSH
+
+    [https://theitbros.com/ssh-into-windows/](https://theitbros.com/ssh-into-windows/)
+    [https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse)
