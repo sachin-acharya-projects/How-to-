@@ -14,7 +14,7 @@ ___________________________________________
     # Only possible with public repositories
     ````
 
-* Method 2 [Using Github Pages](https://pages.github.com/)
+* Method 2 [Using Github Pages](https://pages.github.com/)  
     More details in the page
 
 ## Github as CDN
