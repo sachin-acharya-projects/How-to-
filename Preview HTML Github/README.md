@@ -17,16 +17,6 @@ ___________________________________________
 * Method 2 [Using Github Pages](https://pages.github.com/)
     More details in the page
 
-* Method 3 [Using Github domain](https://sachin-acharya-projects.github.io)
-    * Creating new Repository with name as 
-        ````
-        your_github_username.github.io
-        ````
-    
-    * Create Static Web Content and Push it to the repository
-
-    * View website with [https://your_github_username.github.io](https://your_github_username.github.io)
-
 ## Github as CDN
 You can also use GitHub as CDN
 
