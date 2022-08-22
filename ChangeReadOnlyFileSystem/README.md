@@ -32,3 +32,4 @@ sudo ntfsfix your device # /dev/sda4
 
 _Use this command for all drive you wants -- must be of type Microsoft Basic Data_
 
+5. Finally unmount the drive
