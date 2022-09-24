@@ -6,6 +6,7 @@
 2. [Creating Alias in Windows](#N2)
 3. [Reference to SSH](#N3)
 4. [Programming Task Scheduler](#N4)
+5. [Change Style of Top Panel (Ubuntu)](#N5)
 ______________________________________________
 <div id='N1'></div>  
 
@@ -60,3 +61,8 @@ ____________________________________________________
 * Program Task Scheduler
 
     [Programatic way of using Task Scheduler](https://medium.com/@ajay.bile007/programmatic-way-of-creating-task-in-windows-task-scheduler-8673c5d5b897)
+
+_____________________________________________________
+<div id='N5'></div>
+* Change Style of Top Panel in Ubuntu
+    * Download Shell-extension called `User Themes` and also gnome-tweak.
