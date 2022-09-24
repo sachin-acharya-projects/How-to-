@@ -64,5 +64,50 @@ ____________________________________________________
 
 _____________________________________________________
 <div id='N5'></div>
+
 * Change Style of Top Panel in Ubuntu
-    * Download Shell-extension called `User Themes` and also gnome-tweak.
+    * First Download Gnome Tweaks and Gnome Shell Extensions and also the Extension Manager
+        ````
+        sudo apt install gnome-tweaks gnome-shell-extensions gnome-shell-extension-manager
+        ````
+    * Find Extension Manager from application drawer and launch it.
+    * Now, in `browse` tab, search for the extension `User themes` then install and enable it.
+    * Now, create a folder as shown below
+        ````gnome-terminal
+        mkdir -p ~/.local/share/themes/myTheme/gnome-shell/ ;myTheme can be any name you want for your theme
+        ````
+    * Now change into the newly created directory and create new file `gnome-shell.css`
+        ````
+        touch gnome-shell.css ; path: ~/.local/share/themes/myTheme/gnome-shell
+        ````
+    * Now open this file with your prefered text-editor and enter the following line  
+        _Edit file_
+        ````
+        gedit gnome-shell.css
+        ````
+
+        _Add Line_
+        ````
+        @import url("resource:///org/gnome/theme/gnome-shell.css");
+        ````
+
+        __We are importing everything from the default Gnome Adwaita theme. Change as you wish.__
+    * Now overide the property using `<stage>` or `<#panel>` selector
+        ````
+        stage {
+            font-size: 9pt;
+        }
+        ````
+
+        *Or*
+
+        ````
+        #panel {
+            padding: 30px;
+        }
+        ````
+    
+    * After saving the file, run tweak we previously installed and under the section `appearance`, choose your new theme `myTheme` as shell-theme
+        ````
+        Appearance > Shell > myTheme ... done
+        ````
