@@ -54,7 +54,7 @@ ____________________________________________
 
 * Reference to SSH
 
-    [https://theitbros.com/ssh-into-windows/](https://theitbros.com/ssh-into-windows/)
+    [https://theitbros.com/ssh-into-windows/](https://theitbros.com/ssh-into-windows/)  
     [https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse)
 
 ____________________________________________________
